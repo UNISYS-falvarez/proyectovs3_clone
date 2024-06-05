@@ -1,1 +1,2 @@
 funcionalidad login
+corregir paleta de color
