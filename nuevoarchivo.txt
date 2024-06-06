@@ -1,0 +1,2 @@
+un archivo nuevo
+que NO está todavía en git
