@@ -1,0 +1,13 @@
+name: Report Covert
+on: [ push ]
+
+jobs:
+
+  test:
+    runs-on: ubunto-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Cobertura de código
+      uses: codecov/cob-action@v2
+      with: 
+        token: ${{secrets.TOKEN}}
